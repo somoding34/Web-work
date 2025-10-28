@@ -1,0 +1,54 @@
+.maindiv{
+    display: flex;
+    justify-content:space-around;
+    background-image: url(bird.jpg) ;
+}
+.post1{
+    border: solid 20px;
+    border-radius: 10px;
+    flex-basis: 30%;
+     background-color: white;
+     padding: 20PX;
+     box-shadow:0px 4px 8px ;
+
+}
+.post2{
+    border: solid 20px;
+    border-radius: 10px;
+    flex-basis: 30%; 
+     background-color: white;
+     padding: 20PX;
+    
+}
+.post3{
+    border: solid 20px;
+    border-radius: 10px;
+    flex-basis: 30%;
+    background-color: white;
+    padding: 20PX;
+
+}
+.footer1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(82, 4, 56);
+    padding: 15px;
+    margin: 5px;
+}
+.footer2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: orange;
+    padding: 15PX;
+    margin: 5px;
+}
+.footer3{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(0, 128, 0);
+    padding: 15PX;
+margin: 15px;
+}
