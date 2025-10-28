@@ -1,54 +1,81 @@
 .maindiv{
+    background-color: brown;
     display: flex;
-    justify-content:space-around;
-    background-image: url(bird.jpg) ;
+    gap: 50px;
+    padding: 10%;
+    justify-content: center;
 }
 .post1{
-    border: solid 20px;
-    border-radius: 10px;
-    flex-basis: 30%;
-     background-color: white;
-     padding: 20PX;
-     box-shadow:0px 4px 8px ;
-
+    background-color: aliceblue;
+    border-radius: 25px;
 }
 .post2{
-    border: solid 20px;
-    border-radius: 10px;
-    flex-basis: 30%; 
-     background-color: white;
-     padding: 20PX;
+    background-color: aliceblue;
+    border-radius: 25px;
     
 }
 .post3{
-    border: solid 20px;
-    border-radius: 10px;
-    flex-basis: 30%;
-    background-color: white;
-    padding: 20PX;
-
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+img{
+    border-radius: 25px 25px 0 0;
 }
 .footer1{
+    background-color: pink;
     display: flex;
-    text-align: center;
-    justify-content: space-around;
-    background-color: rgb(82, 4, 56);
-    padding: 15px;
-    margin: 5px;
+      border-radius: 0 0 25px 25px;
 }
 .footer2{
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
     background-color: orange;
-    padding: 15PX;
-    margin: 5px;
+    display: flex;
+    border-radius: 0 0 25px 25px;
 }
 .footer3{
+    background-color: green;
     display: flex;
+      border-radius: 0 0 25px 25px;
+}
+.post1 p{
     text-align: center;
-    justify-content: space-around;
-    background-color: rgb(0, 128, 0);
-    padding: 15PX;
-margin: 15px;
+}
+.post2 p{
+    text-align: center;
+}
+.post3 p{
+    text-align: center;
+}
+.footer1 p{
+    margin-left: 30px;
+     color: aliceblue;
+}
+.footer2 p{
+    margin-left: 30px;
+     color: aliceblue;
+}
+.footer3 p{
+    margin-left: 30px;
+    color: aliceblue;
+}
+.post1 h5{
+    color: pink;
+    text-align: center;
+}
+.post2 h5{
+    color: orange;
+    text-align: center;
+
+}
+.post3 h5{
+    color: green;
+    text-align: center;
+}
+.post1 h2{
+    text-align: center;
+}
+.post2 h2{
+    text-align: center;
+}
+.post3 h2{
+    text-align: center;
 }
